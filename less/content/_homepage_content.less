@@ -1,0 +1,185 @@
+.product{
+    margin-top: 499px;
+    &-inner{
+        width: 100%;
+        .title{
+            a{
+                color: black;
+                text-transform: uppercase;
+                font-size: 18px;
+                font-weight: 600;
+                text-decoration: none;
+                
+            }
+            a:hover{
+                color: red;
+            }
+            .active{
+                a{color: red;}
+                border-bottom:2px solid red;
+               
+            }
+            .nav-product{
+                display: inline-block;
+                padding: 13px 16px;
+                
+            }
+        }
+        hr{
+          
+            margin: 0;
+            margin-top: -1px;
+            color: #ddd;
+            font-size: 1px;
+            color: red;
+        }
+        
+        .products{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 35px;
+            box-sizing: border-box;
+            .product-info{
+                // .col(25%);
+                .img{
+                    position: relative;
+                    max-width: 292px;
+                    img{
+                        width: 100%;
+                        height: 228px;
+                        margin: auto;
+                    }
+                }
+                .pro-icon{
+                    display: none;
+                    position: absolute;
+                    top: 12.5px;
+                    right: 20px;
+                    i{
+                        width: 35px;
+                        height: 35px;
+                        line-height: 35px;
+                        margin: 7.5px 0;
+                         color: #777;
+                        text-align: center;
+                        border: 1px solid #dddddd;
+                        border-radius: 5px 0;
+                    }
+                    i:hover{
+                        background-color: red;
+                        color: white;
+                        border: 1px solid red;
+                        .transit(all, 1s);
+                    }
+                }
+                .name{
+                    margin-top: 20px;
+                    
+                    a{
+                        font-size: 14px;
+                        color: black;
+                        padding-left: 32px;
+                        text-transform: capitalize;
+                        
+                        text-decoration: none;
+                    }
+                    
+                }
+                .price{
+                    padding-left: 31px;
+                    padding-top: 4px;
+                    padding-bottom: 75px;
+                    margin: 0;
+                }
+                .product-info-inner:hover{
+                    overflow: hidden;
+                    img{
+                        .transformer (scale(1.1));
+                        .transit(all, 1s);
+                    }
+                    .transit(all, 0.5s);
+                    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.4);
+                    .pro-icon{
+                        display: block;
+                    }
+                   
+                }
+            }
+        }
+        .products-slick{
+            display: none;
+        }
+    }
+}
+.review{
+    
+    &-inner{
+        // max-width: 1140px;
+        width: 100%;
+        // margin: 0 15px;
+        // padding: 0 15px;
+        margin-top: 45px;
+        text-align: center;
+        &-info{
+           .title{
+               font-size: 36px;
+               font-weight: 600;
+               text-transform: capitalize;
+           }
+           .img{
+               img{
+                   width: 80px;
+                   height: 80px;
+                   border-radius: 50%;
+                   margin: auto;
+                   margin-top: 45px;
+                   margin-bottom: 22px;
+               }
+           }
+           .content{
+               font-size: 18px;
+               font-weight: 400;
+               color: #929292;
+               width: 67%;
+               margin: auto;
+           }
+           .author{
+               text-transform: uppercase;
+               font-size: 18px;
+               font-weight: 600;
+               margin-top: 35px;
+               margin-bottom: 5px;
+               p{
+                   text-transform: capitalize;
+                   color: #929292;
+                   margin-top: 8px;
+                   margin-bottom: 40px;
+                   font-weight: 400;
+                   font-size: 13px;
+               }
+           }
+        }
+    }
+}
+.brand{
+    hr{
+        max-width: 1170px;
+        margin: auto;
+        margin-top: 105px;
+        margin-bottom: 40px;
+        font-size: 2px;
+    }
+    .row{
+        padding: 0 25px;
+        margin-bottom: 40px;
+        max-width: 1170px;
+        width: 100%;
+        // margin: auto;
+        left: 0;
+        right: 0;
+    }
+    .row-responsive{
+        display: none;
+    }
+}
