@@ -16,10 +16,10 @@ $(document).ready(function () {
         arrows: true,
         dots: true,
     });
-    // $('.introduce-responsive').slick({
+    $('.introduce-responsive').slick({
         
-    //     slidesToShow: 1,
-    //     arrows: false,
-    //     dots: true,
-    // });
+        slidesToShow: 1,
+        arrows: false,
+        // dots: true,
+    });
 });

@@ -78,7 +78,9 @@
         margin: auto;
         left: 0;
         right: 0;
-       
+        .slick-list{
+            transform: translate(-5px, 0px);
+        }
         .img{
             // max-width: 380px;
             // height: 250px;
@@ -90,6 +92,7 @@
         .item{
             cursor: pointer;
             overflow: hidden;
+            
             &:hover img {
                 .transformer (scale(1.1));
                 .transit(all, 1s)

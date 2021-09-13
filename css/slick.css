@@ -37,7 +37,9 @@
     cursor: pointer;
     cursor: hand;
 }
-
+/* .slick-slider .slick-track{
+    transform: translate3d(-401px, 0px, 0px);
+} */
 .slick-slider .slick-track,
 .slick-slider .slick-list
 {
