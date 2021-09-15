@@ -208,7 +208,7 @@ ul li {
   padding: 14px 45px;
 }
 .product {
-  margin-top: 499px;
+  margin-top: 498px;
 }
 .product-inner {
   width: 100%;
@@ -244,7 +244,7 @@ ul li {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 35px;
+  margin-top: 36px;
   box-sizing: border-box;
 }
 .product-inner .products .product-info .img {
@@ -288,8 +288,9 @@ ul li {
 .product-inner .products .product-info .name a {
   font-size: 14px;
   color: black;
-  padding-left: 32px;
+  padding-left: 31px;
   text-transform: capitalize;
+  letter-spacing: 0.03em;
   text-decoration: none;
 }
 .product-inner .products .product-info .price {
@@ -348,20 +349,21 @@ ul li {
   font-weight: 400;
   color: #929292;
   width: 67%;
+  line-height: 30px;
   margin: auto;
 }
 .review-inner-info .author {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
-  margin-top: 35px;
+  margin-top: 30px;
   margin-bottom: 5px;
 }
 .review-inner-info .author p {
   text-transform: capitalize;
   color: #929292;
-  margin-top: 8px;
-  margin-bottom: 40px;
+  margin-top: 6px;
+  margin-bottom: 30px;
   font-weight: 400;
   font-size: 13px;
 }
@@ -373,7 +375,7 @@ ul li {
 }
 .brand hr {
   margin: auto;
-  margin-top: 105px;
+  margin-top: 120px;
   margin-bottom: 40px;
   font-size: 2px;
 }
@@ -398,21 +400,24 @@ ul li {
 .contact-top {
   margin: 0 -15px;
   text-align: center;
-  padding-top: 100px;
+  padding-top: 97px;
   padding-bottom: 45px;
 }
 .contact-top .content {
-  margin-top: 30px;
-  margin-bottom: 45px;
+  margin-top: 27px;
+  margin-bottom: 40px;
   color: #6c6c6c;
   font-size: 14px;
   font-weight: 400;
   width: 65%;
   margin-left: auto;
   margin-right: auto;
+  line-height: 25px;
 }
 .contact-top .icon i {
-  padding: 0 20px;
+  padding-top: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
   color: #777;
 }
 .contact-top .icon i:hover {
